@@ -14,9 +14,11 @@ int main()
   std::cin>>num;
   while(num < 0 || num > 100)
     {
-      std::cout<<"Please re-enter: ";                                                                           std::cin>>num;
+      std::cout<<"Please re-enter: ";  
+      std::cin>>num;
     }
-   num = num*num;                                                                                           std::cout<<"Number squared is: "<<num<<std::endl; 
+   num = num*num;                                                                                        
+   std::cout<<"Number squared is: "<<num<<std::endl; 
     
   return 0;
 }
