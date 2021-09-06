@@ -3,6 +3,9 @@ Author: Krina Patel
 Course: CSCI:135
 Instructor: proffesor Mike Zamansky
 Assignment: Lap 2 part B
+
+The program takes two integer inputs L(lower limit included) and U(upper limit excluded)
+and print out all integers in the range L<= i < U seperated by space.
 */
 
 #include <iostream>
