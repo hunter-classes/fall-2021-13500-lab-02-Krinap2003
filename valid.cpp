@@ -3,6 +3,10 @@ Author: Krina Patel
 Course: CSCI: 135
 Instructor: Proffesor Mike Zamansky
 Assignment: Lab 2 part A
+
+Ask the user to input an integer in the  range 0 < n < 100.
+If the number is out of range the user is asked to input the number again.
+After a valid value is inputed, print this number n squared.
  */
 
 #include <iostream>
