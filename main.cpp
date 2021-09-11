@@ -16,5 +16,7 @@ int main()
   //Test the program whit L = -5 and U = 10
   print_interval(-5, 10);
   print_interval(20, 56);
+  print_interval(1, 25);
+  print_interval(-10, 0);
   return 0;
 }
